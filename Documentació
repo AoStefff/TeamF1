@@ -1,1 +1,5 @@
-
+SFTP: WinSCP (https://www.linuxtechi.com/configure-sftp-chroot-debian10/)
+git config --global user.name "jfeliu16"
+git config --global user.email "jfeliu@inspalamos.cat"
+ 
+git clone https://github.com/AoStefff/TeamF1.git
