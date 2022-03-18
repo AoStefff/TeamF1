@@ -1,1 +1,31 @@
+Git i GitHub mitjençant BASH
 
+SFTP: WinSCP (https://www.linuxtechi.com/configure-sftp-chroot-debian10/)
+git config --global user.name "jfeliu16"
+git config --global user.email "jfeliu@inspalamos.cat"
+
+1) Màquina virtual - Devian (v.11.1) - VirtualBox.
+2) Instal·lació GitHub Debian - 
+     apt-get update && apt-get install git -y
+     
+3) Configuració d'usauri i correu electrònic:
+     git config --global user.name "NOMUSUARIGITHUB"
+     git config --global user.email "ADREÇAEMAILUSUARIGITHUB"
+     git clone "ADREÇAREPOSITORI"
+     
+5) Gestió - 
+     Comporvació:
+         /*En la mateixa carpeta que hem fet el git clone*/
+         git status
+         git add "NOMFITXER"
+         git status
+         git commit -m "MISSATGE"
+         git push origin
+        
+6) FTPS Server (WinSCP)
+     Download: https://winscp.net/eng/download.php
+     Instal·lació i configuració:
+     Aceptar >> Siguiente >> Instalar >> Finalizar
+         
+Wikipedia F1 Temporada 2022: https://es.wikipedia.org/wiki/Temporada_2022_de_F%C3%B3rmula_1#Cambios_de_pilotos
+git clone https://github.com/AoStefff/TeamF1.git
