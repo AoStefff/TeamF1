@@ -3,7 +3,7 @@ import java.time.LocalDate;
 public class Curses {
     String nom;
     Circuits nomCircuit;
-    LocalDate dataCursa;
+    LocalDate [] dataCursa = new LocalDate[3];
     Equips [] equips;
-    P
+
 }
